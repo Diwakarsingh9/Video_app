@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_bottom_to_top"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="damroo.spinno.com.damroo.login_module.LoginScreenActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:gravity="center|bottom">
+
+        <views.textview.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            geekui:customTypeface="fonts/Roboto-Regular.ttf"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="What is your gender?"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Password"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"
+            android:gravity="center|left"
+            android:textColor="#ffffff">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/login_edit_text"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/male"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp">
+
+
+
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/male_icon"/>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/login_edit_text"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:id="@+id/female"
+                android:layout_marginRight="5dp">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/female_icon"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/login_edit_text"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Other"
+                    android:textColor="@color/client_offwhite_color"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Continue"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:id="@+id/continue_btn"
+            android:background="@drawable/green_filled_box"/>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:paddingBottom="10dp">
+
+
+    </LinearLayout>
+
+
+
+
+    <!--   -->
+
+</LinearLayout>

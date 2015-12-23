@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_bottom_to_top"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="damroo.spinno.com.damroo.login_module.LoginScreenActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:gravity="center|bottom">
+
+        <views.textview.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            geekui:customTypeface="fonts/Roboto-Regular.ttf"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="When's your birthday?"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:id="@+id/birdaylayout"
+            android:orientation="horizontal"
+            android:background="@drawable/login_edit_text">
+
+
+            <views.textview.TypefaceTextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                geekui:customTypeface="fonts/Roboto-Regular.ttf"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="When's your birthday?"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/birthdaytext"
+                android:textColor="#ffffff"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/down_icon"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Continue"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:id="@+id/continuebtn"
+            android:background="@drawable/green_filled_box"/>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:paddingBottom="10dp">
+
+
+    </LinearLayout>
+
+
+
+
+    <!--   -->
+
+</LinearLayout>

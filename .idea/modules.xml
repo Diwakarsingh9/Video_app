@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Damroo.iml" filepath="$PROJECT_DIR$/Damroo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PagerSlidingtabStrplibrary/PagerSlidingtabStrplibrary.iml" filepath="$PROJECT_DIR$/PagerSlidingtabStrplibrary/PagerSlidingtabStrplibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParallaxScroll/ParallaxScroll.iml" filepath="$PROJECT_DIR$/ParallaxScroll/ParallaxScroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coverflow/coverflow.iml" filepath="$PROJECT_DIR$/coverflow/coverflow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diamajaslider/diamajaslider.iml" filepath="$PROJECT_DIR$/diamajaslider/diamajaslider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialdialouge/materialdialouge.iml" filepath="$PROJECT_DIR$/materialdialouge/materialdialouge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialleanback/materialleanback.iml" filepath="$PROJECT_DIR$/materialleanback/materialleanback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prefrences/prefrences.iml" filepath="$PROJECT_DIR$/prefrences/prefrences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingindicator/slidingindicator.iml" filepath="$PROJECT_DIR$/slidingindicator/slidingindicator.iml" />
+    </modules>
+  </component>
+</project>

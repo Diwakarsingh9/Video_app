@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:foobar="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_background_bottom_to_top"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context="damroo.spinno.com.damroo.login_module.LoginScreenActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <views.textview.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            geekui:customTypeface="fonts/Roboto-Regular.ttf"
+            android:text="DAMROO"
+            android:textSize="50dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="@dimen/damroo_margin_top"
+            android:layout_marginBottom="@dimen/damroo_margin_bottom"
+            android:layout_gravity="center_horizontal" />
+
+        <com.ctrlplusz.anytextview.AnyEditTextView
+            foobar:typeface="Roboto-Light.ttf"
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="@dimen/edit_text_height"
+            android:hint="Username"
+            android:textColorHint="@color/client_offwhite_color"
+            android:gravity="center|left"
+            android:textSize="@dimen/edit_text_textsize"
+            android:paddingLeft="@dimen/edit_text_padding_left"
+            android:textColor="#ffffff"
+            android:id="@+id/username"
+            android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+            android:background="@drawable/login_edit_text"
+            android:inputType="textWebEmailAddress" />
+
+        <com.ctrlplusz.anytextview.AnyEditTextView
+            foobar:typeface="Roboto-Light.ttf"
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="@dimen/edit_text_height"
+            android:hint="Password"
+            android:textColorHint="@color/client_offwhite_color"
+            android:gravity="center|left"
+            android:textSize="@dimen/edit_text_textsize"
+            android:paddingLeft="@dimen/edit_text_padding_left"
+            android:inputType="numberPassword"
+            android:id="@+id/password"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+            android:background="@drawable/login_edit_text"/>
+
+        <LinearLayout
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="@dimen/edit_text_height"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textColor="#ffffff"
+            android:id="@+id/login"
+            android:background="@drawable/green_filled_box">
+            <views.textview.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                geekui:customTypeface="fonts/Roboto-Regular.ttf"
+                android:text="DAMROO"
+                android:textSize="@dimen/edit_text_textsize"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center|bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up for Damroo"
+            android:id="@+id/signup"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Need help?"
+            android:layout_marginBottom="@dimen/needhelp_marginbottom"
+            android:layout_marginTop="@dimen/needhelp_margintop"
+            android:textColor="#ffffff"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

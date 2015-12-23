@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="49dp"
+    android:background="@color/client_grey_colour">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/damroo"
+        android:layout_gravity="center">
+        <views.textview.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="DAMROO"
+            geekui:customTypeface="fonts/Roboto-Regular.ttf"
+            android:textColor="@color/client_offwhite_color"
+            android:id="@+id/tyre_name_in_item_of_bucket_list" />
+
+    </LinearLayout>
+
+</FrameLayout>

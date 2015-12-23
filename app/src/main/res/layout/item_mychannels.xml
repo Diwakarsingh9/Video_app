@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:gravity="center"
+    android:padding="5dp"
+    android:background="@color/client_grey_colour">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/image"
+        android:focusable="false"
+        android:scaleType="centerCrop"/>
+
+    <views.textview.TypefaceTextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        geekui:customTypeface="fonts/Roboto-Regular.ttf"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingLeft="10dp"
+        android:text="Rihana Videos"
+        android:focusable="false"
+        android:gravity="center|left"
+        android:id="@+id/channelname"
+        android:textColor="@color/client_offwhite_color"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subscribed"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:focusable="false"
+            android:textColor="@color/client_offwhite_color"
+            android:background="@drawable/green_filled_box"/>
+    </LinearLayout>
+
+
+</LinearLayout>

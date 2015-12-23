@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/client_grey_colour">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:text="..."
+        android:gravity="center"
+        android:id="@+id/myvideoscount"
+        android:paddingTop="27dp"
+
+        android:textColor="@color/client_offwhite_color">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:text="..."
+        android:gravity="center"
+        android:id="@+id/mychannelscount"
+        android:paddingTop="27dp"
+        android:textColor="@color/client_offwhite_color">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:text="4,000"
+        android:gravity="center"
+        android:paddingTop="27dp"
+        android:textColor="@color/client_offwhite_color">
+
+    </TextView>
+</LinearLayout>
+
+
+    <tabindicatorview.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:pstsShouldExpand="true"/>
+
+</FrameLayout>

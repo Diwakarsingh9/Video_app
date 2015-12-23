@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:foobar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_bottom_to_top"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="damroo.spinno.com.damroo.login_module.LoginScreenActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:gravity="center|bottom">
+
+        <views.textview.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            geekui:customTypeface="fonts/Roboto-Regular.ttf"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="What's your name?"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        <com.ctrlplusz.anytextview.AnyEditTextView
+            foobar:typeface="Roboto-Light.ttf"
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="@dimen/edit_text_height"
+            android:hint="First Name"
+            android:textColorHint="@color/client_offwhite_color"
+            android:gravity="center|left"
+            android:textSize="@dimen/edit_text_textsize"
+            android:paddingLeft="@dimen/edit_text_padding_left"
+            android:textColor="#ffffff"
+            android:id="@+id/firstname"
+            android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+            android:background="@drawable/login_edit_text"/>
+
+        <com.ctrlplusz.anytextview.AnyEditTextView
+            foobar:typeface="Roboto-Light.ttf"
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="@dimen/edit_text_height"
+            android:hint="Last Name"
+            android:textColorHint="@color/client_offwhite_color"
+            android:gravity="center|left"
+            android:textSize="@dimen/edit_text_textsize"
+            android:paddingLeft="@dimen/edit_text_padding_left"
+            android:textColor="#ffffff"
+            android:layout_marginTop="15dp"
+            android:id="@+id/lastname"
+            android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+            android:background="@drawable/login_edit_text"/>
+
+
+
+
+
+        <Button
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Continue"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:id="@+id/continuebtn"
+            android:background="@drawable/green_filled_box"/>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:paddingBottom="10dp">
+
+
+    </LinearLayout>
+
+
+
+
+    <!--   -->
+
+</LinearLayout>

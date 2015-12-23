@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/client_grey_colour"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_3" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <views.textview.TypefaceTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                geekui:customTypeface="fonts/Roboto-Regular.ttf"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingLeft="10dp"
+                android:text="We found love"
+                android:gravity="center|left"
+                android:id="@+id/vname"
+                android:textColor="@color/icons_8_muted_offWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp" />
+            <views.textview.TypefaceTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                geekui:customTypeface="fonts/Roboto-Regular.ttf"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingLeft="10dp"
+                android:text="Artist, dog lover, travel enthusiast, beleiber,and other detailswill go here"
+                android:gravity="center|left"
+                android:id="@+id/vsubname"
+                android:textColor="@color/icons_8_muted_offWhite_dark"
+                android:layout_margin="5dp"
+                android:maxLines="2" />
+        </LinearLayout>
+    </LinearLayout>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#000000"/>
+</LinearLayout>

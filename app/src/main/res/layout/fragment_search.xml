@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2000000">
+
+
+
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Search Your Artist/Channel"
+        android:textColorHint="#d1cece"
+        android:textColor="@color/client_offwhite_color"
+        android:paddingLeft="10dp"
+        android:id="@+id/searchkeyword"
+        android:textCursorDrawable="@drawable/cursorcolor"
+        android:background="@android:color/transparent"/>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/client_green_color"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/layoutforsearch"
+            android:visibility="gone">
+            <views.textview.TypefaceTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                geekui:customTypeface="fonts/Roboto-Regular.ttf"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="In Channel"
+                android:textColor="@color/client_offwhite_color"
+                android:padding="10dp"
+                android:id="@+id/inchannel" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/list_in_channel"></ListView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/client_green_color"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/greenline" />
+            <views.textview.TypefaceTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                geekui:customTypeface="fonts/Roboto-Regular.ttf"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="In Videos"
+                android:textColor="@color/client_offwhite_color"
+                android:padding="10dp"
+                android:id="@+id/invideos" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/list_in_videos"></ListView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

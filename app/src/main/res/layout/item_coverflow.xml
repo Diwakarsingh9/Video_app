@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:foreground="@drawable/cover_selector"
+    android:clickable="true">
+
+
+
+    <com.joooonho.SelectableRoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        app:sriv_left_top_corner_radius="5dip"
+        app:sriv_right_top_corner_radius="5dip"
+        app:sriv_left_bottom_corner_radius="5dip"
+        app:sriv_right_bottom_corner_radius="5dip"
+        app:sriv_border_width="0dip"
+        app:sriv_border_color="#23000000"
+        android:scaleType="fitXY" />
+
+
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmallInverse"
+        android:padding="8dp"
+        tools:text="Title"
+        android:background="@drawable/label_background"
+        android:gravity="center|bottom"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+
+
+</FrameLayout>

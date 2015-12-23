@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Damroo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_screen">LoginScreenActivity</string>
+    <string name="title_activity_sign_in_terms">SignInTerms</string>
+
+
+    <string name="your_text">
+<![CDATA[
+<p><p>By signing up, you are agree to our <b><i><u>Damroo Terms</u></i></b>  and that you have read our <b><i><u>Privacy Policy</u></i></b> including our <b><i><u>Cookie Use</u></i></b> you may receive SMS notification from Damroo and can opt out at any time</p> </p>
+]]>
+</string>
+    <string name="title_activity_email_phone">EmailPhoneActivity</string>
+    <string name="title_activity_your_name">YourNameActivity</string>
+    <string name="title_activity_your_birthday">YourBirthdayActivity</string>
+    <string name="title_activity_choose_password">ChoosePassword</string>
+    <string name="title_activity_gender">GenderActivity</string>
+    <string name="title_activity_video_view">VideoViewActivity</string>
+    <string name="title_activity_category_selection">CategorySelectionActivity</string>
+    <string name="title_activity_splash_screen">DamrooLatest</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+    <string name="title_activity_photo_crop">PhotoCropActivity</string>
+    <string name="title_activity_edit_password">EditPasswordActivity</string>
+
+
+</resources>

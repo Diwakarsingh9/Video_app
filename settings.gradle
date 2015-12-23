@@ -1,0 +1,1 @@
+include ':app', ':diamajaslider', ':coverflow', ':slidingindicator', ':materialleanback', ':prefrences', ':materialdialouge', ':ParallaxScroll', ':PagerSlidingtabStrplibrary'

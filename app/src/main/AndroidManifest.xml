@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="damroo.spinno.com.damroo" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".login_module.LoginScreenActivity"
+            android:label="@string/title_activity_login_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".login_module.SignInTerms"
+            android:label="@string/title_activity_sign_in_terms"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".login_module.EmailPhoneActivity"
+            android:label="@string/title_activity_email_phone"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".login_module.YourNameActivity"
+            android:label="@string/title_activity_your_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".login_module.YourBirthdayActivity"
+            android:label="@string/title_activity_your_birthday"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".login_module.ChoosePassword"
+            android:label="@string/title_activity_choose_password"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".login_module.GenderActivity"
+            android:label="@string/title_activity_gender"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".videoview.VideoViewActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".login_module.CategorySelectionActivity"
+            android:label="@string/title_activity_category_selection"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/title_activity_splash_screen"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".profileModule.EditProfileActivity"
+            android:label="@string/title_activity_edit_profile"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name=".profileModule.PhotoCropActivity"
+            android:label="@string/title_activity_photo_crop" >
+        </activity>
+        <activity
+            android:name=".profileModule.EditPasswordActivity"
+            android:label="@string/title_activity_edit_password" >
+        </activity>
+        <activity
+            android:name=".home.ChannelActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".home.QuestionActivity" >
+        </activity>
+    </application>
+
+</manifest>

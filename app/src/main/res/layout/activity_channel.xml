@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nirhart.parallaxscroll.views.ParallaxScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    app:parallax_factor="1.9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/client_black_colour">
+        <include layout="@layout/actionbar_channel"/>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/profile_img"
+                android:scaleType="centerCrop"
+                android:src="@drawable/carchannel" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/deleteclose"
+                android:layout_gravity="top|right"
+                android:id="@+id/close"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"/>
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/leftarr"
+                android:layout_gravity="top|left"
+                android:id="@+id/backphoto"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+              />
+        </FrameLayout>
+
+
+
+
+        //////////////////////   Name Subscriber edit profile
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <views.textview.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Rihanna Vevo"
+                    android:layout_marginLeft="5dp"
+                    geekui:customTypeface="fonts/Roboto-Regular.ttf"
+                    android:textColor="@color/client_offwhite_color"
+                    android:id="@+id/channbelname"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <views.textview.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="25,400"
+                        android:layout_marginLeft="5dp"
+                        geekui:customTypeface="fonts/Roboto-Regular.ttf"
+                        android:textColor="@color/icons_8_muted_green_1_dark"
+                        android:textStyle="bold" />
+                    <views.textview.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text=" Subscriber"
+                        geekui:customTypeface="fonts/Roboto-Regular.ttf"
+                        android:textColor="@color/client_offwhite_color"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subscribed"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="@color/client_offwhite_color"
+                    android:background="@drawable/green_filled_box"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <views.textview.UnderlineTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/client_offwhite_color"
+                android:text="www.revo123.com"
+                android:lineSpacingExtra="4dp"
+                android:id="@+id/websitename"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tags"
+                android:textColor="@color/client_offwhite_color"
+                android:text="Artist, dog lover, travel enthusiast, beleiber,and other detailswill go here"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/client_grey_colour">
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/icons_8_muted_green_1_dark"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/client_grey_colour"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <views.textview.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Videos(41)"
+                geekui:customTypeface="fonts/Roboto-Regular.ttf"
+                android:id="@+id/textView3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/icons_8_muted_green_1_dark" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@drawable/videosundertab"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/client_grey_colour"
+            android:id="@+id/layoutforvideos"></LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+</com.nirhart.parallaxscroll.views.ParallaxScrollView>
